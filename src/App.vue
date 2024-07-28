@@ -1,10 +1,11 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-
+import MenuDesplegable from './components/MenuDesplegable.vue';
 </script>
 
 <template>
-    <h1>Hello world</h1>
+    <MenuDesplegable />
+    
 </template>
 
 <style scoped>
