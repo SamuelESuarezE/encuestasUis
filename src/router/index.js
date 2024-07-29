@@ -5,7 +5,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [    
     {
-      path: '/inicio',
+      path: '/',
       name: 'inicio',
       component: () => import('../views/Inicio.vue')
     },
@@ -27,7 +27,7 @@ const router = createRouter({
     {
       path: '/necesidades_juridicas_sector_educativo',
       name: 'necesidades_juridicas_sector_educativo',
-      component: () => import('../views/NeceJuriEtnicas.vue')
+      component: () => import('../views/NeceJuriEdu.vue')
     },
     {
       path: '/encuesta_finalizada',

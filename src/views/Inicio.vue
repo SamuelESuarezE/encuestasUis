@@ -1,9 +1,9 @@
 <script setup>
     const menuItems = {
-        "01": "Encuesta A La Administración Municipal Y Operadores De Justicia",
-        "02": "Encuesta Sobre Necesidades Jurídicas",
-        "03": "Encuesta De Necesidades Jurídicas - Comunidades Étnicas",
-        "04": "Encuesta De Necesidades Jurídicas - Sector Educativo"
+        "01": ["/administracion_municipal_y_operadores_de_justicia", "Encuesta A La Administración Municipal Y Operadores De Justicia"],
+        "02": ["/necesidades_juridicas", "Encuesta Sobre Necesidades Jurídicas"],
+        "03": ["/necesidades_juridicas_comunidades_etnicas", "Encuesta De Necesidades Jurídicas - Comunidades Étnicas"],
+        "04": ["/necesidades_juridicas_sector_educativo", "Encuesta De Necesidades Jurídicas - Sector Educativo"]
     }
 </script>
 
@@ -14,7 +14,7 @@
             <ul>
                 <li v-for = "[key, value] in Object.entries(menuItems)">
                     <div class="number">{{key}}</div>
-                    <a href="">{{ value }}</a>
+                    <RouterLink class="link" :to="value[0]">{{ value[1] }}</RouterLink>
                 </li>
 
             </ul>
@@ -22,7 +22,7 @@
     </main>
 </template>
 
-<style>
+<style scoped>
 
     main{
         height: 100%;
@@ -72,7 +72,7 @@
 
     }
 
-    a {
+    .link {
         text-decoration: none; 
         color: black; 
     }

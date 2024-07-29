@@ -1,15 +1,11 @@
 <script setup>
 import { ref } from 'vue';
 
-const menuItems = [
-  "Encuesta A La Administración Municipal Y Operadores De Justicia",
-  "Encuesta Sobre Necesidades Jurídicas",
-  "Encuesta De Necesidades Jurídicas - Comunidades Étnicas",
-  "Encuesta De Necesidades Jurídicas - Sector Educativo"
-];
-
-const handleClick = (item) => {
-  alert(`Has seleccionado: ${item}`);
+const menuItems = {
+  "/administracion_municipal_y_operadores_de_justicia": "Encuesta A La Administración Municipal Y Operadores De Justicia",
+  "/necesidades_juridicas": "Encuesta Sobre Necesidades Jurídicas",
+  "/necesidades_juridicas_comunidades_etnicas": "Encuesta De Necesidades Jurídicas - Comunidades Étnicas",
+  "/necesidades_juridicas_sector_educativo": "Encuesta De Necesidades Jurídicas - Sector Educativo"
 };
 
 const isCollapsed = ref(true);
@@ -26,8 +22,8 @@ const toggleMenu = () => {
       <p v-if="!isCollapsed">ENCUESTAS</p>
     </header>
     <ul v-if="!isCollapsed">
-      <li v-for="item in menuItems" @click="handleClick(item)">
-        <a>{{ item }}</a>
+      <li v-for="[key, value] in Object.entries(menuItems)">
+        <RouterLink class="link" :to="key">{{ value }}</RouterLink>
       </li>
     </ul>
   </aside>
@@ -74,12 +70,15 @@ ul {
 }
 
 ul li {
-  cursor: pointer;
   background-color: var(--color-white);
-  color: var(--color-black);
   padding: 10px;
   border-radius: 10px 0px 10px 0px;
   transition: background-color 0.3s ease;
+}
+
+.link {
+  color: var(--color-black);
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
