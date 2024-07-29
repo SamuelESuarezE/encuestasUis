@@ -39,7 +39,7 @@ import { RouterLink, RouterView } from 'vue-router'
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 15px;
+        gap: 50px;
     }
 
     main img{
