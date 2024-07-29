@@ -25,17 +25,11 @@ const toggleMenu = () => {
       <i class="bi bi-list"></i>
       <p v-if="!isCollapsed">ENCUESTAS</p>
     </header>
-
     <ul v-if="!isCollapsed">
-
       <li v-for="item in menuItems" @click="handleClick(item)">
         <a>{{ item }}</a>
       </li>
-
     </ul>
-
-
-
   </aside>
 </template>
 
@@ -64,7 +58,7 @@ header {
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 header p {
