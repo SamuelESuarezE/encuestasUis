@@ -1,20 +1,38 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
+  routes: [    
     {
-      path: '/',
-      name: 'home',
-      component:  () => import('../views/HomeView.vue')
+      path: '/inicio',
+      name: 'inicio',
+      component: () => import('../views/Inicio.vue')
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
+      path: '/administracion_municipal_y_operadores_de_justicia',
+      name: 'administracion_municipal_y_operadores_de_justicia',
+      component: () => import('../views/AdminMuniOpJ.vue')
+    },
+    {
+      path: '/necesidades_juridicas',
+      name: 'necesidades_juridicas',
+      component: () => import('../views/NeceJuri.vue')
+    },
+    {
+      path: '/necesidades_juridicas_comunidades_etnicas',
+      name: 'necesidades_juridicas_comunidades_etnicas',
+      component: () => import('../views/NeceJuriEtnicas.vue')
+    },
+    {
+      path: '/necesidades_juridicas_sector_educativo',
+      name: 'necesidades_juridicas_sector_educativo',
+      component: () => import('../views/NeceJuriEtnicas.vue')
+    },
+    {
+      path: '/encuesta_finalizada',
+      name: 'encuesta_finalizada',
+      component: () => import('../views/Gracias.vue')
     }
   ]
 })

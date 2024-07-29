@@ -35,7 +35,7 @@ const toggleMenu = () => {
 
 <style scoped>
 .menu_desplegable {
-  height: 100%;
+  height: 100vh;
   background-color: var(--color-darkBlue);
   color: var(--color-white);
   width: 350px;
