@@ -97,7 +97,29 @@ import { RouterLink, RouterView } from 'vue-router'
         color: var(--color-gray)
     }
 
+    @media (max-width: 768px) {
+        main img {
+            width: 300px;
+        }
 
+        .encuestas__container {
+            width: 100%;
+            height: 300px;
+        }
+
+        ul li{
+            display: flex;
+            width: 100%;
+            justify-content: start;
+            font-size: 16px;
+            padding-right: 20px;
+        }
+
+        .number {
+            width: 70px;
+            min-width: 70px;
+        }
+    }
 
 
 </style>
