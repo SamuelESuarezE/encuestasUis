@@ -36,6 +36,8 @@ const toggleMenu = () => {
   color: var(--color-white);
   width: 350px;
   transition: 0.3s ease;
+  position: absolute;
+  left: 0;
 
 }
 
@@ -83,13 +85,14 @@ ul li {
 
 @media (max-width: 768px) {
   .menu_desplegable {
-    width: 100%;
-    max-width: none;
+    position: absolute;
+    width: 100vw;
   }
 
   .menu_desplegable.collapsed {
     width: 60px;
     min-width: 60px;
   }
+
 }
 </style>
