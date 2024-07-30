@@ -19,7 +19,7 @@ const toggleMenu = () => {
   <aside class="menu_desplegable" :class="{ 'collapsed': isCollapsed }">
     <header @click="toggleMenu" :class="{ 'collapsed': isCollapsed }">
       <i class="bi bi-list"></i>
-      <p v-if="!isCollapsed">ENCUESTAS</p>
+      <p v-if="!isCollapsed">Encuestas</p>
     </header>
     <ul v-if="!isCollapsed">
       <li v-for="[key, value] in Object.entries(menuItems)">
@@ -72,7 +72,7 @@ ul {
 ul li {
   background-color: var(--color-white);
   padding: 10px;
-  border-radius: 10px 0px 10px 0px;
+  border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
