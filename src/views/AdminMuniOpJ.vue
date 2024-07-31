@@ -29,6 +29,7 @@
     .form {
         margin-block: 50px;
         width: 70%;
+        text-align: justify;
     }
 
 </style>
