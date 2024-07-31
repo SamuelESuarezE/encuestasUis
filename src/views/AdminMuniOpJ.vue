@@ -1,6 +1,10 @@
 <script setup>
     import MenuDesplegable from '@/components/MenuDesplegable.vue';
     import TituloForm from '@/components/TituloForm.vue';
+    import TextInput from '@/components/preguntas/TextInput.vue';
+    import Dropdown from '@/components/preguntas/Dropdown.vue';
+    import Checklist from '@/components/preguntas/Checklist.vue';
+    import Composite from '@/components/preguntas/Composite.vue';
 </script>
 
 <template>
@@ -15,6 +19,38 @@
             <p>El análisis de estos resultados, nos llevaran a formular acciones para el fortalecimiento del acceso a la justicia en cada territorio, de ahí la importancia que el diligenciamiento de esta encuesta sea realizado por el actor / operador de justicia, labor que no se puede delegar, toda vez que las preguntas van orientadas a las características, competencias y funciones del cargo que se desempeña en cada caso.</p>
             <br>
             <p>Agradecemos de antemano su colaboración. Tiempo estimado para su diligenciamiento 60 minutos.</p>
+            <hr class="initialDivision">
+            <TextInput label="Ingresa tu nombre" id="p1"/>
+            <Dropdown id="p2" label="Tipo de funcionario publico:" :options="
+            [
+                { value: 'res1', label: 'Juez/a' },
+                { value: 'res2', label: 'Abogado/a' },
+            ]
+            " />
+            <Checklist id="p3" label="Pregunta checklist" :options="[
+                { value: 'res1', label: 'Una opcion'},
+                { value: 'res2', label: 'Segunda opcion'},
+                { value: 'res3', label: 'Tercera opcion'}
+            ]"/>
+
+            <Composite title="Pregunta compuesta" :sub-questions="
+            [
+            {
+                id: '31.1',
+                type: 'dropdown',
+                label: 'Cosas',
+                options: [
+                    { value: 'res1', label: 'Cosa 1 compuesta' },
+                    { value: 'res2', label: 'Cosa 2 compuesta' },
+                ]
+                },
+                {
+                id: '31.2',
+                type: 'text',
+                label: 'Ejemplo texto en compuesta'
+                }
+            ]
+            "/>
         </div>
     </main>
 </template>
@@ -30,6 +66,18 @@
         margin-block: 50px;
         width: 70%;
         text-align: justify;
+    }
+
+    .initialDivision {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-top: 1px solid #ccc;
+    }
+
+    @media screen and (max-width: 768px) {
+       .form {
+            width: 75%;
+        }
     }
 
 </style>

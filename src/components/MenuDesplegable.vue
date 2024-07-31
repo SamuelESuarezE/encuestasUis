@@ -37,8 +37,9 @@ const toggleMenu = () => {
   width: 350px;
   transition: 0.3s ease;
   position: absolute;
+  height: auto;
   left: 0;
-
+  box-shadow: 5px 7px 5px rgb(255, 255, 255);
 }
 
 .menu_desplegable.collapsed {
@@ -46,6 +47,7 @@ const toggleMenu = () => {
     width: 60px;
     color: var(--color-darkBlue);
     background-color: #00000000;
+    box-shadow: none
 }
 
 header {
