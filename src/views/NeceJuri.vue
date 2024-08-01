@@ -5,10 +5,12 @@
     import Dropdown from '@/components/preguntas/Dropdown.vue';
     import Checklist from '@/components/preguntas/Checklist.vue';
     import Composite from '@/components/preguntas/Composite.vue';
+    import BackHome from '@/components/BackHome.vue';
 </script>
 
 <template>
     <main>
+        <BackHome></BackHome>
         <div class="form">
 
             <TituloForm titulo="ENCUESTA SOBRE NECESIDADES JURÍDICAS" />
@@ -72,10 +74,11 @@
         border-top: 1px solid #ccc;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
        .form {
-            width: 75%;
+            width: 85%;
         }
     }
+
 
 </style>

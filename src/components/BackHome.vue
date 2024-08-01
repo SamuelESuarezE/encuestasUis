@@ -35,5 +35,19 @@ button {
   
 }
 
+button:hover{
+  background-color: var(--color-gray);
+  color: var(--color-white);
+  transition: 0.3s ease;
+}
+
+@media  (max-width: 1200px) {
+  
+  button {
+    display: none;
+  }
+}
+
+
 
 </style>

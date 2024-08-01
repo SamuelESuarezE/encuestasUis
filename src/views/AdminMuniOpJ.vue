@@ -76,9 +76,9 @@
         border-top: 1px solid #ccc;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
        .form {
-            width: 75%;
+            width: 85%;
         }
     }
 

@@ -5,10 +5,12 @@
     import Dropdown from '@/components/preguntas/Dropdown.vue';
     import Checklist from '@/components/preguntas/Checklist.vue';
     import Composite from '@/components/preguntas/Composite.vue';
+    import BackHome from '@/components/BackHome.vue';
 </script>
 
 <template>
     <main>
+        <BackHome></BackHome>
         <div class="form">
             <TituloForm titulo="ENCUESTA DE NECESIDADES JURÍDICAS - COMUNIDADES ÉTNICAS" />
             <p>El Ministerio de Justicia y del Derecho viene adelantando la asistencia técnica a distintos actores de la sociedad para promover la implementación, funcionamiento y sostenibilidad de la estrategia Sistemas Locales de Justicia a nivel municipal. El objetivo de esta encuesta es contribuir a la lectura del territorio a través de la identificación de los problemas que afectan particularmente a las comunidades étnicas del municipio a través de la experiencia de <span style="color: red">sus representantes.</span>
@@ -75,9 +77,10 @@
     }
 
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
        .form {
-            width: 75%;
+            width: 85%;
         }
     }
+
 </style>
