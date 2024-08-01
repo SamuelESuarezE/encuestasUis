@@ -57,7 +57,6 @@
     ul li:hover{
         background-color: var(--color-grayLight);
         transition: 0.3s ease;
-
     }
 
     ul li{

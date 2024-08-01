@@ -9,7 +9,6 @@
 
 <template>
     <main>
-        <MenuDesplegable />
         <div class="form">
             <TituloForm titulo="ENCUESTA DE NECESIDADES JURÍDICAS - COMUNIDADES ÉTNICAS" />
             <p>El Ministerio de Justicia y del Derecho viene adelantando la asistencia técnica a distintos actores de la sociedad para promover la implementación, funcionamiento y sostenibilidad de la estrategia Sistemas Locales de Justicia a nivel municipal. El objetivo de esta encuesta es contribuir a la lectura del territorio a través de la identificación de los problemas que afectan particularmente a las comunidades étnicas del municipio a través de la experiencia de <span style="color: red">sus representantes.</span>

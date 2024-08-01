@@ -9,7 +9,6 @@
 
 <template>
     <main>
-        <MenuDesplegable />
         <div class="form">
             <TituloForm titulo="ENCUESTA DE NECESIDADES JURÍDICAS - SECTOR EDUCATIVO" />
             <p>El Ministerio de Justicia y del Derecho viene adelantando, la asistencia técnica para promover la implementación, funcionamiento y sostenibilidad de la estrategia de los Sistemas Locales de Justicia a nivel municipal. El objetivo de esta encuesta es contribuir a la lectura del territorio a través de la identificación de los problemas que afectan a los estudiantes de las entidades educativas del municipio a través de la experiencia de <span style="color: red">rectores o coordinadores de convivencia escolar de Establecimientos Educativos.</span>

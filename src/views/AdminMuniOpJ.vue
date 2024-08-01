@@ -5,11 +5,13 @@
     import Dropdown from '@/components/preguntas/Dropdown.vue';
     import Checklist from '@/components/preguntas/Checklist.vue';
     import Composite from '@/components/preguntas/Composite.vue';
+    import BackHome from '@/components/BackHome.vue'
+
 </script>
 
 <template>
     <main>
-        <MenuDesplegable />
+        <BackHome></BackHome>
         <div class="form">
             <TituloForm titulo="ENCUESTA A LA ADMINISTRACIÓN MUNICIPAL Y OPERADORES DE JUSTICIA" />
             <p>El Ministerio de Justicia y del Derecho viene adelantando, la asistencia técnica para promover la implementación y operación de la estrategia Sistemas Locales de Justicia a nivel municipal. El objetivo de esta encuesta es contribuir a la lectura del territorio a través de la identificación de los actores/operadores que hacen parte de la oferta de justicia a nivel local, el reconocimiento de sus capacidades institucionales, la identificación de las barreras de acceso a la justicia y las conflictividades.</p>

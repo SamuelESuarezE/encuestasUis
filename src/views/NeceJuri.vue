@@ -9,8 +9,8 @@
 
 <template>
     <main>
-        <MenuDesplegable />
         <div class="form">
+
             <TituloForm titulo="ENCUESTA SOBRE NECESIDADES JURÍDICAS" />
             <p>El Ministerio de Justicia y del Derecho viene adelantando, la asistencia técnica para promover la implementación y operación de la estrategia Sistemas Locales de Justicia a nivel municipal. El objetivo de esta encuesta es contribuir a la lectura del territorio a través de la identificación de las barreras de acceso a la justicia y las conflictividades.</p>
             <br>
