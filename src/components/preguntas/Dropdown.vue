@@ -1,3 +1,21 @@
+<script setup>
+import { ref, defineProps, defineEmits } from 'vue';
+
+const props = defineProps({
+  id: String,
+  label: String,
+  options: Array,
+});
+
+const emit = defineEmits(['update:modelValue']);
+
+const selectedValue = ref('');
+
+const emitValue = () => {
+  emit('update:modelValue', selectedValue.value);
+};
+</script>
+
 <template>
     <div class="question">
       <label :for="id" class="question-label">{{ label }}</label>
@@ -8,30 +26,14 @@
         @change="emitValue"
       >
         <option value="" disabled>Seleccione una opcion</option>
-        <option v-for="option in options" :key="option.value" :value="option.value">
-          {{ option.label }}
+        <option v-for="option in options" :key="option.option_value" :value="option.option_value">
+          {{ option.option_text }}
         </option>
       </select>
     </div>
   </template>
   
-  <script setup>
-  import { ref, defineProps, defineEmits } from 'vue';
-  
-  const props = defineProps({
-    id: String,
-    label: String,
-    options: Array,
-  });
-  
-  const emit = defineEmits(['update:modelValue']);
-  
-  const selectedValue = ref('');
-  
-  const emitValue = () => {
-    emit('update:modelValue', selectedValue.value);
-  };
-  </script>
+
   
   <style scoped>
   .question-select {

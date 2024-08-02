@@ -6,6 +6,27 @@
     import Checklist from '@/components/preguntas/Checklist.vue';
     import Composite from '@/components/preguntas/Composite.vue';
     import BackHome from '@/components/BackHome.vue'
+    import {getQuestionsBySurveyAndChapter} from '@/db/questions.js';
+    import { ref, onMounted } from 'vue';
+
+
+    const data = ref(null);
+
+    onMounted(async () => {
+    try {
+        let res = await getQuestionsBySurveyAndChapter(1, 1);
+        data.value = res.filter(q => q.parent_question_id==null)
+    } catch (error) {
+        console.error('Failed to fetch questions:', error);
+    }
+    });
+
+    const componentMap = {
+        'text': TextInput,
+        'RM': Dropdown,
+        'checklist': Checklist,
+        'composite': Composite
+    };
 
 </script>
 
@@ -22,14 +43,30 @@
             <br>
             <p>Agradecemos de antemano su colaboración. Tiempo estimado para su diligenciamiento 60 minutos.</p>
             <hr class="initialDivision">
-            <TextInput label="Ingresa tu nombre" id="p1"/>
-            <Dropdown id="p2" label="Tipo de funcionario publico:" :options="
-            [
-                { value: 'res1', label: 'Juez/a' },
-                { value: 'res2', label: 'Abogado/a' },
-            ]
-            " />
-            <Checklist id="p3" label="Pregunta checklist" :options="[
+            <template v-if="data">
+                <component
+                v-for="question in data"
+                :key="question.id"
+                :is="componentMap[question.response_type]"
+                :id="question.id"
+                :label="question.question_text"
+                :options="question.response_options"
+                />
+            </template>
+
+            <!-- <question v-for="question in data.value">
+                <TextInput label="Ingresa tu nombre" id="p1"/>
+                <Dropdown id="p2" label="Tipo de funcionario publico:" :options="
+                [
+                    { value: 'res1', label: 'Juez/a' },
+                    { value: 'res2', label: 'Abogado/a' },
+                ]
+                " />
+            </question> -->
+
+
+
+            <!-- <Checklist id="p3" label="Pregunta checklist" :options="[
                 { value: 'res1', label: 'Una opcion'},
                 { value: 'res2', label: 'Segunda opcion'},
                 { value: 'res3', label: 'Tercera opcion'}
@@ -52,7 +89,7 @@
                 label: 'Ejemplo texto en compuesta'
                 }
             ]
-            "/>
+            "/> -->
         </div>
     </main>
 </template>
