@@ -1,0 +1,3963 @@
+{
+	"idSurvey": 2,
+	"nameSurvey": "ENCUESTA DE NECESIDADES JURIDICAS - COMUNIDADES ETNICAS",
+	"chapters": [
+		{
+			"id": 8,
+			"chapterNumber": "1",
+			"chapterTitle": "Características sociodemográficas del encuestado",
+			"questions": [
+				{
+					"id": 53,
+					"questionNumber": "P1",
+					"questionText": "RU",
+					"responseType": "NA",
+					"comment_question": "Nombre completo del encuestado",
+					"responseOptions": [
+						{
+							"id": 1047,
+							"optionText": "NA",
+							"optionvalue": "0",
+							"comment_response": "NA",
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 54,
+					"questionNumber": "P2",
+					"questionText": "RU",
+					"responseType": "NA",
+					"comment_question": "Nombre de la comunidad que representa",
+					"responseOptions": [
+						{
+							"id": 1048,
+							"optionText": "NA",
+							"optionvalue": "0",
+							"comment_response": "NA",
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 55,
+					"questionNumber": "P3",
+					"questionText": "RU",
+					"responseType": "NA",
+					"comment_question": "Número de celular",
+					"responseOptions": [
+						{
+							"id": 1049,
+							"optionText": "NA",
+							"optionvalue": "0",
+							"comment_response": "NA",
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 56,
+					"questionNumber": "P4",
+					"questionText": "RU",
+					"responseType": "NA",
+					"comment_question": "Correo electrónico",
+					"responseOptions": [
+						{
+							"id": 1050,
+							"optionText": "NA",
+							"optionvalue": "0",
+							"comment_response": "NA",
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 57,
+					"questionNumber": "P5",
+					"questionText": "RU",
+					"responseType": "NA",
+					"comment_question": "Nombre del departamento",
+					"responseOptions": [
+						{
+							"id": 1051,
+							"optionText": "NA",
+							"optionvalue": "0",
+							"comment_response": "NA",
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 58,
+					"questionNumber": "P6",
+					"questionText": "RU",
+					"responseType": "NA",
+					"comment_question": "Código departamento",
+					"responseOptions": [
+						{
+							"id": 1052,
+							"optionText": "NA",
+							"optionvalue": "0",
+							"comment_response": "NA",
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 59,
+					"questionNumber": "P7",
+					"questionText": "RU",
+					"responseType": "NA",
+					"comment_question": "Nombre del municipio",
+					"responseOptions": [
+						{
+							"id": 1053,
+							"optionText": "NA",
+							"optionvalue": "0",
+							"comment_response": "NA",
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 60,
+					"questionNumber": "P8",
+					"questionText": "RU",
+					"responseType": "NA",
+					"comment_question": "Código del municipio",
+					"responseOptions": [
+						{
+							"id": 1054,
+							"optionText": "NA",
+							"optionvalue": "0",
+							"comment_response": "NA",
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 61,
+					"questionNumber": "P9",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "¿Qué rol desempeña usted dentro de su comunidad?",
+					"responseOptions": [
+						{
+							"id": 1055,
+							"optionText": "Gobernador",
+							"optionvalue": "1",
+							"comment_response": "TSR",
+							"typecomponenthtml": null,
+							"subresponseoption": []
+						},
+						{
+							"id": 1056,
+							"optionText": "Gobernador de gobernadores",
+							"optionvalue": "2",
+							"comment_response": "TSR",
+							"typecomponenthtml": null,
+							"subresponseoption": []
+						},
+						{
+							"id": 1057,
+							"optionText": "Representante legal del Consejo Comunitario o miembro de la Junta del Consejo Comunitario",
+							"optionvalue": "3",
+							"comment_response": "TSR",
+							"typecomponenthtml": null,
+							"subresponseoption": []
+						},
+						{
+							"id": 1058,
+							"optionText": "Líder de la kumpañy",
+							"optionvalue": "4",
+							"comment_response": "TSR",
+							"typecomponenthtml": null,
+							"subresponseoption": []
+						},
+						{
+							"id": 1059,
+							"optionText": "Otro ¿Cuál?",
+							"optionvalue": "5",
+							"comment_response": "TSR",
+							"typecomponenthtml": null,
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 62,
+					"questionNumber": "P10",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "¿Nos autoriza a realizarle la encuesta?",
+					"responseOptions": [
+						{
+							"id": 1061,
+							"optionText": "NO",
+							"optionvalue": "2",
+							"comment_response": "Agradezca y finalice la encuesta.Colocar la novedad en A5.",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1060,
+							"optionText": "SI",
+							"optionvalue": "1",
+							"comment_response": "Pase a la pregunta P11",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 63,
+					"questionNumber": "P11",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "¿Cuál es su edad?",
+					"responseOptions": [
+						{
+							"id": 1062,
+							"optionText": "Entre 18 a 25 años",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1063,
+							"optionText": "Entre 26 a 35 años",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1064,
+							"optionText": "Entre 36 a 45 años",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1065,
+							"optionText": "Entre 46 a 55 años",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1066,
+							"optionText": "Mayor de 56 años",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 64,
+					"questionNumber": "P12",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "¿Cuál es su nivel educativo más alto alcanzado?",
+					"responseOptions": [
+						{
+							"id": 1067,
+							"optionText": "Ninguno",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1068,
+							"optionText": "Preescolar",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1069,
+							"optionText": "Básica primaria (1-5)",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1070,
+							"optionText": "Básica secundaria (6-9)",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1071,
+							"optionText": "Media (10-13)",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1072,
+							"optionText": "Técnico",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1073,
+							"optionText": "Tecnólogo",
+							"optionvalue": "7",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1074,
+							"optionText": "Profesional",
+							"optionvalue": "8",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1075,
+							"optionText": "Especialista",
+							"optionvalue": "9",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1076,
+							"optionText": "Magister",
+							"optionvalue": "10",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1077,
+							"optionText": "Doctorado",
+							"optionvalue": "11",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1078,
+							"optionText": "No sabe / No informa",
+							"optionvalue": "12",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 9,
+			"chapterNumber": "2",
+			"chapterTitle": "Información de la comunidad",
+			"questions": [
+				{
+					"id": 65,
+					"questionNumber": "P13",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "De acuerdo con su cultura, pueblo o rasgos físicos... ¿cuál de las siguientes categorías se enmarca su comunidad?",
+					"responseOptions": [
+						{
+							"id": 1079,
+							"optionText": "Indígena",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1080,
+							"optionText": "Gitano / ROM",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1081,
+							"optionText": "Raizal del archipiélago de San Andrés y Providencia",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1082,
+							"optionText": "Palenquero de San Basilio",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1083,
+							"optionText": "Negro, mulato, afrodescendiente o afrocolombiano",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1084,
+							"optionText": "Ninguno de los anteriores",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 66,
+					"questionNumber": "P14",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "¿Cuál es el tamaño de su comunidad?",
+					"responseOptions": [
+						{
+							"id": 1085,
+							"optionText": "Menos de cien personas",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1086,
+							"optionText": "Entre 100 a 500 personas",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1087,
+							"optionText": "Entre 500 a 1000 personas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1088,
+							"optionText": "Más de mil personas",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1089,
+							"optionText": "Otro ¿Cuál?",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 67,
+					"questionNumber": "P15",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "¿La comunidad a la que usted pertenece es?",
+					"responseOptions": [
+						{
+							"id": 1092,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1091,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						},
+						{
+							"id": 1090,
+							"optionText": "Urbana",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 10,
+			"chapterNumber": "3",
+			"chapterTitle": "Barreras de acceso a la justicia",
+			"questions": [
+				{
+					"id": 68,
+					"questionNumber": "P16",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "¿Del siguiente listado, ¿Cuáles considera, desde su rol (como representante de la comunidad), que son las principales barreras de acceso a la justicia que se le presentan a los miembros de su comunidad?",
+					"responseOptions": [
+						{
+							"id": 1093,
+							"optionText": "1.Culturales y lingüísticas\r\nDefinición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas en razón de la pertenencia a grupos culturales o lingüísticos minoritarios. ",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": [
+								{
+									"id": 64,
+									"subresponsenumber": 1,
+									"subresponsetext": "Si",
+									"componenthtml": "radio"
+								},
+								{
+									"id": 65,
+									"subresponsenumber": 2,
+									"subresponsetext": "No",
+									"componenthtml": "radio"
+								}
+							]
+						},
+						{
+							"id": 1094,
+							"optionText": "2.De Género \r\nDefinición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas, en razón del sexo, la identidad de género, orientación sexual o expresión de género.",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": [
+								{
+									"id": 66,
+									"subresponsenumber": 1,
+									"subresponsetext": "Si",
+									"componenthtml": "radio"
+								},
+								{
+									"id": 67,
+									"subresponsenumber": 2,
+									"subresponsetext": "No",
+									"componenthtml": "radio"
+								}
+							]
+						},
+						{
+							"id": 1095,
+							"optionText": "3. De seguridad, orden público o asociadas al conflicto armado\r\nDefinición. Obstáculos o dificultades para la satisfacción de una necesidad jurídica debido a la percepción de peligro frente la vida o la integridad personal.",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": [
+								{
+									"id": 68,
+									"subresponsenumber": 1,
+									"subresponsetext": "Si",
+									"componenthtml": "radio"
+								},
+								{
+									"id": 69,
+									"subresponsenumber": 2,
+									"subresponsetext": "No",
+									"componenthtml": "radio"
+								}
+							]
+						},
+						{
+							"id": 1096,
+							"optionText": "4. Discapacidad\r\nDefinición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas en razón de la condición de discapacidad de las personas.",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": [
+								{
+									"id": 70,
+									"subresponsenumber": 1,
+									"subresponsetext": "Si",
+									"componenthtml": "radio"
+								},
+								{
+									"id": 71,
+									"subresponsenumber": 2,
+									"subresponsetext": "No",
+									"componenthtml": "radio"
+								}
+							]
+						},
+						{
+							"id": 1097,
+							"optionText": "5. Económicas\r\nDefinición. Se refiere a las dificultades de las personas para asumir los costos que implica el acceso a los servicios de justicia o los obstáculos que enfrentan al encontrarse en situación de marginalidad económica. \r\n",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": [
+								{
+									"id": 72,
+									"subresponsenumber": 1,
+									"subresponsetext": "Si",
+									"componenthtml": "radio"
+								},
+								{
+									"id": 73,
+									"subresponsenumber": 2,
+									"subresponsetext": "No",
+									"componenthtml": "radio"
+								}
+							]
+						},
+						{
+							"id": 1098,
+							"optionText": "6. Geográficas \r\nDefinición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas en razón de la ubicación geográfica, las distancias, medios y vías de comunicación o transporte.\r\n",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": [
+								{
+									"id": 74,
+									"subresponsenumber": 1,
+									"subresponsetext": "Si",
+									"componenthtml": "radio"
+								},
+								{
+									"id": 75,
+									"subresponsenumber": 2,
+									"subresponsetext": "No",
+									"componenthtml": "radio"
+								}
+							]
+						},
+						{
+							"id": 1099,
+							"optionText": "7. Institucionales\r\nDefinición. Se refieren a dificultades en el acceso en razón a la estructura, políticas, procesos y dinámicas de los sistemas de justicia.",
+							"optionvalue": "7",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": [
+								{
+									"id": 76,
+									"subresponsenumber": 1,
+									"subresponsetext": "Si",
+									"componenthtml": "radio"
+								},
+								{
+									"id": 77,
+									"subresponsenumber": 2,
+									"subresponsetext": "No",
+									"componenthtml": "radio"
+								}
+							]
+						},
+						{
+							"id": 1100,
+							"optionText": "8. Tecnológicas \r\nDefinición. Dificultades en el acceso a la justicia por la falta de equipos, sistemas tecnológicos, redes o infraestructura de conectividad.",
+							"optionvalue": "8",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": [
+								{
+									"id": 78,
+									"subresponsenumber": 1,
+									"subresponsetext": "Si",
+									"componenthtml": "radio"
+								},
+								{
+									"id": 79,
+									"subresponsenumber": 2,
+									"subresponsetext": "No",
+									"componenthtml": "radio"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 69,
+					"questionNumber": "P17",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se le presentan a los miembros de su comunidad?",
+					"responseOptions": [
+						{
+							"id": 1101,
+							"optionText": "Atención inadecuada por razón de la condición cultural o lingüística.",
+							"optionvalue": "1.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1102,
+							"optionText": "Falta de información, rutas de atención y asistencia legal de fácil comprensión o disponible en lenguas minoritarias.",
+							"optionvalue": "1.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1103,
+							"optionText": "Falta de articulación y coordinación entre la justicia propia afro y la jurisdicción ordinaria.",
+							"optionvalue": "1.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1104,
+							"optionText": "Falta de articulación y coordinación entre la Justicia Especial Indígena y la jurisdicción ordinaria.",
+							"optionvalue": "1.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1105,
+							"optionText": "Falta de asistencia de traductores o interpretes dentro de los procedimientos o trámites legales.",
+							"optionvalue": "1.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1106,
+							"optionText": "Otro, ¿Cuál?",
+							"optionvalue": "1.6",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1107,
+							"optionText": "Falta de atención o atención inadecuada o desestimación de los conflictos en razón del sexo, identidad de género, orientación sexual o expresión de género.",
+							"optionvalue": "2.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1108,
+							"optionText": "Falta de asistencia o representación legal adecuada por razón del sexo, identidad de género, orientación sexual o expresión de género.",
+							"optionvalue": "2.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1109,
+							"optionText": "No accede a los servicios de justicia por sentir o presumir que será discriminado en razón de su sexo, identidad de género, orientación sexual o expresión de género.",
+							"optionvalue": "2.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1110,
+							"optionText": "Miedo a denunciar o a continuar con los trámites y procedimientos en razón a amenazas o violencias basadas en género.",
+							"optionvalue": "2.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1111,
+							"optionText": "Otro, ¿Cuál?",
+							"optionvalue": "2.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1112,
+							"optionText": "Miedo a denunciar o a continuar con los trámites por amenazas o control territorial de grupos armados.",
+							"optionvalue": "3.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1113,
+							"optionText": "Justicias paralelas",
+							"optionvalue": "3.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1114,
+							"optionText": "Afectación en la prestación de servicios de justicia por violencia contra operadores (p. ej. Cierre de oficinas, traslados de despachos, entre otros).",
+							"optionvalue": "3.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1115,
+							"optionText": "Otro, ¿Cuál?",
+							"optionvalue": "3.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1116,
+							"optionText": "Falta de medios de transporte adecuados para movilizarse hasta donde se prestan los servicios de justicia (Vehículos accesibles, sillas de ruedas, entre otros).",
+							"optionvalue": "4.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1117,
+							"optionText": "Falta de intérpretes o de asistencia adecuada (para personas con dificultades para ver o escuchar).",
+							"optionvalue": "4.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1118,
+							"optionText": "Falta de edificaciones o infraestructura accesible para personas con discapacidad (ausencia de rampas, pasillos estrechos, entre otros).",
+							"optionvalue": "4.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1119,
+							"optionText": "Otro, ¿Cuál?",
+							"optionvalue": "4.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1120,
+							"optionText": "Falta de recursos para contratar un abogado.",
+							"optionvalue": "5.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1121,
+							"optionText": "Falta de abogados o defensores de oficio en el lugar.",
+							"optionvalue": "5.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1122,
+							"optionText": "Falta de recursos para trasladarse al lugar donde se prestan servicios de justicia.",
+							"optionvalue": "5.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1123,
+							"optionText": "Falta de recursos para la conectividad.",
+							"optionvalue": "5.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1124,
+							"optionText": "Falta de recursos para la atención de gastos procesales y pre procesales (p. ej. dictámenes periciales, transporte de testigos o contacto con los mismos, investigadores, entre otros).",
+							"optionvalue": "5.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1125,
+							"optionText": "Altos costos de oportunidad (tiempo que toma y se destinará) para atender el trámite, proceso o procedimiento.",
+							"optionvalue": "5.6",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1126,
+							"optionText": "Otro, ¿Cuál?",
+							"optionvalue": "5.7",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1127,
+							"optionText": "Falta de presencia de operadores de justicia en zonas rurales.",
+							"optionvalue": "6.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1128,
+							"optionText": "Falta de infraestructura vial o de oferta de transporte para movilizarse a donde se prestan servicios de justicia.",
+							"optionvalue": "6.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1129,
+							"optionText": "Dificultades para acceder a los operadores de justicia en razón de la distancia que debe recorrerse o de las condiciones geográficas (p. ej. accidentes geográficos).",
+							"optionvalue": "6.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1130,
+							"optionText": "Otro, ¿Cuál?",
+							"optionvalue": "6.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1131,
+							"optionText": "Lentitud y larga duración de los trámites y procesos de los servicios de justicia.",
+							"optionvalue": "7.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1132,
+							"optionText": "Incumplimiento de acuerdos o sentencias.",
+							"optionvalue": "7.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1133,
+							"optionText": "Excesivos trámites y formalidades, procesos demasiado complejos.",
+							"optionvalue": "7.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1134,
+							"optionText": "Desconfianza en los operadores de justicia y en la institucionalidad en general.",
+							"optionvalue": "7.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1135,
+							"optionText": "Percepción de impunidad en el sistema de justicia.",
+							"optionvalue": "7.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1136,
+							"optionText": "Falta de implementación o promoción de los Métodos de Resolución de Conflictos.",
+							"optionvalue": "7.6",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1137,
+							"optionText": "Falta de articulación y coordinación entre actores y operadores de justicia.",
+							"optionvalue": "7.7",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1138,
+							"optionText": "Desconocimiento de derechos, deberes y de los diversos mecanismos de acceso a la justicia.",
+							"optionvalue": "7.8",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1139,
+							"optionText": "Alta rotación de servidores en el sector justicia.",
+							"optionvalue": "7.9",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1140,
+							"optionText": "Falta de conocimientos o competencias de los actores y operadores de justicia.",
+							"optionvalue": "7.10",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1141,
+							"optionText": "Falta de recursos financieros, físicos y humanos para atender de forma oportuna y suficiente las necesidades jurídicas.",
+							"optionvalue": "7.11",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1142,
+							"optionText": "Otro, ¿Cuál?",
+							"optionvalue": "7.12",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1143,
+							"optionText": "Falta de equipos o infraestructura tecnológica a disposición de los actores y operadores de justicia.",
+							"optionvalue": "8.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1144,
+							"optionText": "Las personas no cuentan con equipos o sistemas que les permitan acceder en línea a los servicios de justicia.",
+							"optionvalue": "8.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1145,
+							"optionText": "Deficiente conectividad en zonas rurales (veredas o corregimientos).",
+							"optionvalue": "8.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1146,
+							"optionText": "Deficiente conectividad en el casco urbano de los municipios o distritos.",
+							"optionvalue": "8.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1147,
+							"optionText": "Otro, ¿Cuál?",
+							"optionvalue": "8.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 11,
+			"chapterNumber": "4",
+			"chapterTitle": "Conflictividades",
+			"questions": [
+				{
+					"id": 70,
+					"questionNumber": "P18",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se le presentan a los miembros de su comunidad?",
+					"responseOptions": [
+						{
+							"id": 1148,
+							"optionText": "Problemas relacionados con familiares como separación o divorcio, cuotas de alimentos, herencias o sucesiones, paternidad / maternidad, cuidado de personas que más lo requieren y gastos del hogar.",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1149,
+							"optionText": "Problemas relacionados con el consumo de un producto, bien o servicio (telefonía celular, televisión por cable, internet, transporte, alimentos, electrodomésticos y servicios técnicos o profesionales). Se excluyen los servicios públicos domiciliarios.",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1150,
+							"optionText": "Problemas relacionados con la prestación de un servicio público domiciliario como agua, luz, gas, alcantarillado o basuras.",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1151,
+							"optionText": "Problemas relacionados con su trabajo o empleo, como falta de pago de salarios, reconocimiento o formalización de la relación laboral, cambio en las condiciones laborales, despido, acoso.",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1152,
+							"optionText": "Problemas relacionados con deudas contraídas con el sector financiero, solidario o particulares, respecto a intereses elevados, hipotecas, embargos, quiebras, reportes a centrales de riesgo, deudas educativas.",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1153,
+							"optionText": "Problemas relacionados con la vivienda en la que habita o de la que es dueño, o problemas con vecinos por ruidos, malos olores, mascotas, chismes y otros.",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1154,
+							"optionText": "Problemas relacionados con el entorno o el espacio público, como el daño, deterioro o falta de paraderos, bancas, calles, puentes; invasión, uso indebido del espacio público o perjuicios por la ejecución de obras públicas.",
+							"optionvalue": "7",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1155,
+							"optionText": "Problemas relacionados con la propiedad, uso y tenencia de la tierra como disputas sobre títulos, linderos, registro catastral o extinción de dominio.",
+							"optionvalue": "8",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1156,
+							"optionText": "Problemas relacionados con el medio ambiente o el acceso a recursos comunitarios, como conflictos por el acceso a fuentes de agua, explotación ilegal de recursos ambientales o contaminación.",
+							"optionvalue": "9",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1157,
+							"optionText": "Problemas relacionados con la prestación de los servicios de salud, pensión, riesgos laborales, como en la asignación de citas, medicamentos, calidad, oportunidad, afiliación, negación, reconocimiento o pago de la mesada pensional.",
+							"optionvalue": "10",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1158,
+							"optionText": "Problemas en su relación con el Estado, referentes a multas, comparendos, pago de impuestos, expropiaciones, deficiencia en los servicios prestados, abuso de autoridad por policía y ejército o trámites de migrantes.",
+							"optionvalue": "11",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1159,
+							"optionText": "Problemas relacionados con el servicio de educación y formación, como el acceso, la calidad, y el ambiente educativo (matoneo).",
+							"optionvalue": "12",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1160,
+							"optionText": "Problemas relacionados con afectaciones, daños o perjuicios causados o derivados de delitos, como hurto, lesiones, calumnias, daños a la propiedad, secuestro, homicidio, ciberdelito, violencia sexual y violencia intrafamiliar.",
+							"optionvalue": "13",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1161,
+							"optionText": "Problemas relacionados con afectaciones, daños o perjuicios causados o derivados del conflicto armado o problemas de orden público como desplazamiento forzado, terrorismo, despojo de tierras, extorsión.",
+							"optionvalue": "14",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1162,
+							"optionText": "Problemas interculturales",
+							"optionvalue": "15",
+							"comment_response": "NA",
+							"typecomponenthtml": "radio",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 71,
+					"questionNumber": "P19",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "¿Cuáles de las siguientes tipologías de problemas afectan con mayor frecuencia a los miembros de su comunidad?",
+					"responseOptions": [
+						{
+							"id": 1463,
+							"optionText": "Paternidad / maternidad o adopción",
+							"optionvalue": "1.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1464,
+							"optionText": "Cuota de alimentos, custodia, patria potestad, visitas",
+							"optionvalue": "1.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1465,
+							"optionText": "Separación, divorcio, liquidación, unión libre",
+							"optionvalue": "1.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1466,
+							"optionText": "División de propiedad / Separación de bienes",
+							"optionvalue": "1.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1467,
+							"optionText": "Herencias, sucesiones, testamentos",
+							"optionvalue": "1.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1468,
+							"optionText": "Cuidado de personas que más lo requieren (niños, niñas y adolescentes, personas enfermas, personas con discapacidad, personas mayores)",
+							"optionvalue": "1.6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1469,
+							"optionText": "Quien asume los gastos del hogar",
+							"optionvalue": "1.7",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1470,
+							"optionText": "Mala calidad de los productos o servicios adquiridos",
+							"optionvalue": "2.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1471,
+							"optionText": "Incumplimiento de contratos o garantías de productos o servicios",
+							"optionvalue": "2.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1472,
+							"optionText": "Manejo de datos personales",
+							"optionvalue": "2.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1473,
+							"optionText": "Publicidad engañosa",
+							"optionvalue": "2.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1474,
+							"optionText": "Sobrecostos en tarifas",
+							"optionvalue": "2.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1475,
+							"optionText": "Carencia, desconexión, prestación inadecuada del servicio",
+							"optionvalue": "3.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1476,
+							"optionText": "Facturación, tarifa y sobrecostos",
+							"optionvalue": "3.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1477,
+							"optionText": "Instalación, uso ilegal de la instalación",
+							"optionvalue": "3.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1478,
+							"optionText": "Reconocimiento y formalización de relación laboral o contractual",
+							"optionvalue": "4.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1479,
+							"optionText": "Despido y liquidación de relación laboral y contractual",
+							"optionvalue": "4.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1480,
+							"optionText": "Remuneración, pago de salario, jornal, pagos en especie, liquidación de prestaciones sociales (vacaciones, horas extra, cesantías, primas)",
+							"optionvalue": "4.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1481,
+							"optionText": "Perjuicios ocasionados por las condiciones en el ejercicio del trabajo, lugar de trabajo, dotación, no pago de aportes a seguridad social y riesgos laborales",
+							"optionvalue": "4.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1482,
+							"optionText": "Pertenecer a un sindicato, participar en huelgas, incumplimiento de convenciones colectivas o pactos laborales",
+							"optionvalue": "4.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1483,
+							"optionText": "Maltrato y acoso laboral",
+							"optionvalue": "4.6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1484,
+							"optionText": "Negación de licencias (maternidad, paternidad, luto, no remuneradas) o indemnizaciones.",
+							"optionvalue": "4.7",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1485,
+							"optionText": "Deudas en forma de letras de cambio, pagarés u otros instrumentos contraídos con particulares",
+							"optionvalue": "5.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1486,
+							"optionText": "Usura o intereses elevados en préstamos con particulares",
+							"optionvalue": "5.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1487,
+							"optionText": "Embargo y secuestro del bien por deudas contraídas con particulares",
+							"optionvalue": "5.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1488,
+							"optionText": "Deudas como tarjetas de crédito, libre inversión, créditos hipotecarios y otras carteras con entidades financieras y solidarias",
+							"optionvalue": "5.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1489,
+							"optionText": "Usura o intereses elevados en préstamos con el sector financiero y solidario",
+							"optionvalue": "5.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1490,
+							"optionText": "Procesos ejecutivos, embargo, secuestro del bien, hipotecas, remates y lanzamientos con el sector financiero y solidario",
+							"optionvalue": "5.6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1491,
+							"optionText": "Reportes a centrales de riesgo",
+							"optionvalue": "5.7",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1492,
+							"optionText": "Deudas por créditos educativos",
+							"optionvalue": "5.8",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1493,
+							"optionText": "Pago de intereses por deudas educativas",
+							"optionvalue": "5.9",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1494,
+							"optionText": "Quiebra o insolvencia de personas naturales",
+							"optionvalue": "5.10",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1495,
+							"optionText": "Propiedad",
+							"optionvalue": "6.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1496,
+							"optionText": "Invasión, ocupación indebida",
+							"optionvalue": "6.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1497,
+							"optionText": "Daños, afectaciones, calidad del inmueble",
+							"optionvalue": "6.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1498,
+							"optionText": "Arrendamiento",
+							"optionvalue": "6.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1499,
+							"optionText": "Administración",
+							"optionvalue": "6.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1500,
+							"optionText": "Ruidos, malos olores y basuras",
+							"optionvalue": "6.6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1501,
+							"optionText": "Problemas relacionados con mascotas u otros animales domésticos",
+							"optionvalue": "6.7",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1502,
+							"optionText": "Buen nombre, rumores, chismes",
+							"optionvalue": "6.8",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1503,
+							"optionText": "Daños a cultivos, conflictos por fuentes y acceso al agua",
+							"optionvalue": "6.9",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1504,
+							"optionText": "Invasión, ocupación indebida",
+							"optionvalue": "7.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1505,
+							"optionText": "Perjuicios ocasionados por las condiciones o ausencia de equipamiento y mobiliario urbano (puentes peatonales, calles, andenes, paraderos, botes de basura, escaños, bancas, materas, luminarias, bolardos, jardineras, juegos infantiles y de ejercicio, semáforos, etc.)",
+							"optionvalue": "7.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1506,
+							"optionText": "Perjuicios ocasionados por obras públicas (rampas, señalización, ruidos, escombros, duración)",
+							"optionvalue": "7.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1507,
+							"optionText": "Mal uso de espacios de uso común (parques, calles, plazas, playas, andenes)",
+							"optionvalue": "7.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1508,
+							"optionText": "Conflictos derivados de la inexistencia de información o desactualización de los registros catastrales y registrales (mercado inmobiliario)",
+							"optionvalue": "8.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1509,
+							"optionText": "Formalización, adjudicación o titulación de tierras, mojones y definición de linderos",
+							"optionvalue": "8.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1510,
+							"optionText": "Servidumbre sobre un predio (de paso de agua, servicios públicos)",
+							"optionvalue": "8.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1511,
+							"optionText": "Invasión, ocupación indebida del terreno",
+							"optionvalue": "8.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1512,
+							"optionText": "Recuperación de terrenos",
+							"optionvalue": "8.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1513,
+							"optionText": "Extinción de dominio",
+							"optionvalue": "8.6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1514,
+							"optionText": "Impacto ambiental producido por la actividad minero-energética",
+							"optionvalue": "9.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1515,
+							"optionText": "Contaminación o deforestación ambiental (fumigaciones, aspersión con glifosato, tala de árboles, aguas, incendios, pesca)",
+							"optionvalue": "9.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1516,
+							"optionText": "Extracción y explotación ilícita de recursos ambientales (minerales, madera, hidrocarburos, fuentes hídricas)",
+							"optionvalue": "9.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1517,
+							"optionText": "Acceso a recursos comunitarios (agua, pesca, caza, vías terciarias)",
+							"optionvalue": "9.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1518,
+							"optionText": "Afiliación (Sistema general de seguridad social en salud y pensión, ARL y riesgos laborales)",
+							"optionvalue": "10.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1519,
+							"optionText": "Registro y categorización del SISBEN / régimen subsidiado",
+							"optionvalue": "10.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1520,
+							"optionText": "Servicios básicos (citas, autorizaciones de procedimientos y/o medicamentos, pagos)",
+							"optionvalue": "10.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1521,
+							"optionText": "Servicio por enfermedades crónicas y enfermedades de alto costo (autorizaciones de procedimientos y/o cirugías, medicamentos, pagos)",
+							"optionvalue": "10.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1522,
+							"optionText": "Negación del servicio",
+							"optionvalue": "10.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1523,
+							"optionText": "Demora en la atención del servicio (citas, autorizaciones de procedimientos y/o medicamentos, pagos)",
+							"optionvalue": "10.6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1524,
+							"optionText": "Calidad del servicio",
+							"optionvalue": "10.7",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1525,
+							"optionText": "Daños y perjuicios ocasionados por el uso de medicamentos o suplementos adulterados",
+							"optionvalue": "10.8",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1526,
+							"optionText": "Errores médicos, equivocación del tratamiento",
+							"optionvalue": "10.9",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1527,
+							"optionText": "Pago de la mesada pensional",
+							"optionvalue": "10.10",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1528,
+							"optionText": "Acceso a pensión y reconocimiento de requisitos",
+							"optionvalue": "10.11",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1529,
+							"optionText": "Traslados entre regímenes",
+							"optionvalue": "10.12",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1530,
+							"optionText": "Daños o perjuicios ocasionados por actuaciones de instituciones públicas o autoridades del Estado",
+							"optionvalue": "11.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1531,
+							"optionText": "Expropiaciones",
+							"optionvalue": "11.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1532,
+							"optionText": "Deficiencia en los servicios prestados por el Estado diferentes de los servicios públicos domiciliarios.",
+							"optionvalue": "11.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1533,
+							"optionText": "Abuso de la autoridad estatal",
+							"optionvalue": "11.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1534,
+							"optionText": "Pago y/o cobro de impuesto, multas y sanciones (asuntos de carácter tributario)",
+							"optionvalue": "11.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1535,
+							"optionText": "Negación en obtención de documentos, en la realización de trámites, procesos ante el Estado",
+							"optionvalue": "11.6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1536,
+							"optionText": "Problemas relacionados con comparendos de tránsito, por contravenciones (notificación tardía, no conformidad)",
+							"optionvalue": "11.7",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1537,
+							"optionText": "Ejecución o incumplimiento de un contrato estatal (menos contratos laborales)",
+							"optionvalue": "11.8",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1538,
+							"optionText": "Trámites de naturalización de migrantes y expedición de documentos",
+							"optionvalue": "11.9",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1539,
+							"optionText": "Daños o perjuicios ocasionados por actuaciones de funcionarios judiciales, auxiliares de la justicia y abogados litigantes.",
+							"optionvalue": "11.10",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1540,
+							"optionText": "Problemas en el acceso a la educación básica y media",
+							"optionvalue": "12.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1541,
+							"optionText": "Problemas en el acceso a la educación superior",
+							"optionvalue": "12.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1542,
+							"optionText": "Condiciones de calidad en la prestación del servicio, negación",
+							"optionvalue": "12.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1543,
+							"optionText": "Derechos de gratuidad, matrícula de ingreso, materiales",
+							"optionvalue": "12.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1544,
+							"optionText": "Acceso y prestación inadecuada del servicio en relación con necesidades específicas de la persona",
+							"optionvalue": "12.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1545,
+							"optionText": "Ambiente educativo (matoneo, bullying, violencia).",
+							"optionvalue": "12.6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1546,
+							"optionText": "Hurto, estafa, fraude, extorsión",
+							"optionvalue": "13.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1547,
+							"optionText": "Daño en bienes muebles y/o inmuebles (patrimonio como vehículos o oficina)",
+							"optionvalue": "13.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1548,
+							"optionText": "Amenazas, lesiones",
+							"optionvalue": "13.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1549,
+							"optionText": "Contra los derechos de autor.",
+							"optionvalue": "13.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1550,
+							"optionText": "Secuestros, tortura",
+							"optionvalue": "13.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1551,
+							"optionText": "Injurias, calumnias",
+							"optionvalue": "13.6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1552,
+							"optionText": "Homicidio, feminicidio",
+							"optionvalue": "13.7",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1553,
+							"optionText": "Ciberdelitos (hurto por medios informáticos, violación de datos personales)",
+							"optionvalue": "13.8",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1554,
+							"optionText": "Plantaciones ilícitas, producción de drogas, tráfico de estupefacientes y sustancias químicas",
+							"optionvalue": "13.9",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1555,
+							"optionText": "Violencia sexual",
+							"optionvalue": "13.10",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1556,
+							"optionText": "Violencia intrafamiliar",
+							"optionvalue": "13.11",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1557,
+							"optionText": "Desplazamiento forzado y desaparición forzada",
+							"optionvalue": "14.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1558,
+							"optionText": "Agresiones por la Policía o las Fuerzas Militares (batidas ilegales, falsos positivos, ejecuciones extrajudiciales, etc.)",
+							"optionvalue": "14.2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1559,
+							"optionText": "Incumplimiento en la sustitución de cultivos ilícitos",
+							"optionvalue": "14.3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1560,
+							"optionText": "Delitos contra la vida y/o la integridad personal ocurridos con ocasión del conflicto armado (tortura, homicidio, secuestro, violencia sexual, minas antipersona)",
+							"optionvalue": "14.4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1561,
+							"optionText": "Delitos contra el patrimonio ocurridos con ocasión del conflicto armado (extorsión, hurto, daño en bien ajeno)",
+							"optionvalue": "14.5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1562,
+							"optionText": "Terrorismo y amenazas",
+							"optionvalue": "14.6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1563,
+							"optionText": "Despojo de tierras",
+							"optionvalue": "14.7",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1564,
+							"optionText": "Discrepancias por las prácticas de usos y costumbres de comunidades étnicas",
+							"optionvalue": "15.1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 72,
+					"questionNumber": "P20",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "Frente a este problema ¿cuál es la acción que con más frecuencia adoptan los miembros de su comunidad?",
+					"responseOptions": [
+						{
+							"id": 1565,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1566,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1567,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1568,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1569,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1570,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1571,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1572,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1573,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1574,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1575,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1576,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1577,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1578,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1579,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1580,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1581,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1582,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1583,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1584,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1585,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1586,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1587,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1588,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1589,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1590,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1591,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1592,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1593,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1594,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1595,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1596,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1597,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1598,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1599,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1600,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1601,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1602,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1603,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1604,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1605,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1606,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1607,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1608,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1609,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1610,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1611,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1612,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1613,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1614,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1615,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1616,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1617,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1618,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1619,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1620,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1621,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1622,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1623,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1624,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1625,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1626,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1627,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1628,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1629,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1630,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1631,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1632,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1633,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1634,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1635,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1636,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1637,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1638,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1639,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1640,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1641,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1642,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1643,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1644,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1645,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1646,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1647,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1648,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1649,
+							"optionText": "Acuden a la justicia propia de su comunidad",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1650,
+							"optionText": "Acuden a una institución, autoridad o persona particular",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1651,
+							"optionText": "Intentó llegar a un acuerdo directamente con quien tuvo el problema",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1652,
+							"optionText": "Actuó de forma violenta",
+							"optionvalue": "4",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1653,
+							"optionText": "Acudió a un actor ilegal",
+							"optionvalue": "5",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1654,
+							"optionText": "No hizo nada",
+							"optionvalue": "6",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 73,
+					"questionNumber": "P21",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+					"responseOptions": [
+						{
+							"id": 1655,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1656,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1657,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1658,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1659,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1660,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1661,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1662,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1663,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1664,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1665,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1666,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1667,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1668,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1669,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1670,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1671,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1672,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1673,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1674,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1675,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1676,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1677,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1678,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1679,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1680,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1681,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1682,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1683,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1684,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1685,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1686,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1687,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1688,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1689,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1690,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1691,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1692,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1693,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1694,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1695,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1696,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1697,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1698,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1699,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1700,
+							"optionText": "Urbano",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1701,
+							"optionText": "Rural",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1702,
+							"optionText": "Ambas",
+							"optionvalue": "3",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 74,
+					"questionNumber": "P22",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "Sobre este problema ¿es común que la jurisdicción ordinaria o la justicia estatal reclame competencia?",
+					"responseOptions": [
+						{
+							"id": 1731,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1732,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1703,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1704,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1705,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1706,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1707,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1708,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1709,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1710,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1711,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1712,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1713,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1714,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1715,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1716,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1717,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1718,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1719,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1720,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1721,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1722,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1723,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1724,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1725,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1726,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1727,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1728,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1729,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1730,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 75,
+					"questionNumber": "P23",
+					"questionText": "RM",
+					"responseType": "NA",
+					"comment_question": "¿El problema se solucionó?",
+					"responseOptions": [
+						{
+							"id": 1734,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1735,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1733,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1736,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1737,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1738,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1739,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1740,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1741,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1742,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1743,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1744,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1745,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1746,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1747,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1748,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1749,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1750,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1751,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1752,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1753,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1754,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1755,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1756,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1757,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1758,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1759,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1760,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1761,
+							"optionText": "Si",
+							"optionvalue": "1",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						},
+						{
+							"id": 1762,
+							"optionText": "No",
+							"optionvalue": "2",
+							"comment_response": "NA",
+							"typecomponenthtml": "NA",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 76,
+					"questionNumber": "P24",
+					"questionText": "yes_no",
+					"responseType": null,
+					"comment_question": "¿Existe desde la comunidad a la que usted representa alguna alianza o espacios de coordinación con la institucionalidad u operadores de justicia del municipio para atender los casos o problemas que se presentan?",
+					"responseOptions": [
+						{
+							"id": 1763,
+							"optionText": "SI",
+							"optionvalue": "1",
+							"comment_response": "Pase a la pregunta P25",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						},
+						{
+							"id": 1764,
+							"optionText": "NO",
+							"optionvalue": "2",
+							"comment_response": "Pase a la pregunta P27",
+							"typecomponenthtml": "text",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 77,
+					"questionNumber": "P25",
+					"questionText": "text",
+					"responseType": null,
+					"comment_question": "Puede usted mencionar brevemente ¿en qué consisten esos espacios de coordinación o alianza?",
+					"responseOptions": [
+						{
+							"id": 1765,
+							"optionText": "NA",
+							"optionvalue": "0",
+							"comment_response": "NA",
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 78,
+					"questionNumber": "P26",
+					"questionText": "text",
+					"responseType": null,
+					"comment_question": "¿Cuáles son las instituciones que hacen parte de esa coordinación o alianza con las autoridades étnicas?",
+					"responseOptions": [
+						{
+							"id": 1766,
+							"optionText": "NA",
+							"optionvalue": "0",
+							"comment_response": "NA",
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 79,
+					"questionNumber": "P27",
+					"questionText": "text",
+					"responseType": null,
+					"comment_question": "¿Por qué no existen esas alianzas o protocolos de coordinación?",
+					"responseOptions": [
+						{
+							"id": 1767,
+							"optionText": "NA",
+							"optionvalue": "0",
+							"comment_response": "NA",
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 80,
+					"questionNumber": "P28",
+					"questionText": "text",
+					"responseType": null,
+					"comment_question": "¿Qué apoyo o articulación necesitan con la institucionalidad municipal, departamental o nacional para el manejo de estos casos?",
+					"responseOptions": [
+						{
+							"id": 1768,
+							"optionText": "NA",
+							"optionvalue": "0",
+							"comment_response": "NA",
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 81,
+					"questionNumber": "P29",
+					"questionText": "text",
+					"responseType": null,
+					"comment_question": "Para finalizar esta encuesta, ¿desearía agregar algún comentario o recomendación?",
+					"responseOptions": [
+						{
+							"id": 1769,
+							"optionText": "NA",
+							"optionvalue": "0",
+							"comment_response": "NA",
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 12,
+			"chapterNumber": "A",
+			"chapterTitle": "Información del encuestador y novedades en campo",
+			"questions": [
+				{
+					"id": 82,
+					"questionNumber": "A1",
+					"questionText": "text",
+					"responseType": null,
+					"comment_question": "Si aplica, consignar el nombre completo del encuestador",
+					"responseOptions": [
+						{
+							"id": 1770,
+							"optionText": "NA",
+							"optionvalue": "0",
+							"comment_response": "NA",
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 83,
+					"questionNumber": "A2",
+					"questionText": "date",
+					"responseType": null,
+					"comment_question": "Fecha",
+					"responseOptions": [
+						{
+							"id": 1771,
+							"optionText": "Hora",
+							"optionvalue": "1",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						},
+						{
+							"id": 1772,
+							"optionText": "Minutos",
+							"optionvalue": "2",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						},
+						{
+							"id": 1773,
+							"optionText": "a.m",
+							"optionvalue": "3",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						},
+						{
+							"id": 1774,
+							"optionText": "p.m",
+							"optionvalue": "4",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 84,
+					"questionNumber": "A3",
+					"questionText": "time",
+					"responseType": null,
+					"comment_question": "Hora de inicio de la visita",
+					"responseOptions": [
+						{
+							"id": 1775,
+							"optionText": "Hora",
+							"optionvalue": "1",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						},
+						{
+							"id": 1776,
+							"optionText": "Minutos",
+							"optionvalue": "2",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						},
+						{
+							"id": 1777,
+							"optionText": "a.m",
+							"optionvalue": "3",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						},
+						{
+							"id": 1778,
+							"optionText": "p.m",
+							"optionvalue": "4",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 85,
+					"questionNumber": "A4",
+					"questionText": "time",
+					"responseType": null,
+					"comment_question": "Hora de finalización",
+					"responseOptions": [
+						{
+							"id": 1779,
+							"optionText": "Hora",
+							"optionvalue": "1",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						},
+						{
+							"id": 1780,
+							"optionText": "Minutos",
+							"optionvalue": "2",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						},
+						{
+							"id": 1781,
+							"optionText": "a.m",
+							"optionvalue": "2",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						},
+						{
+							"id": 1782,
+							"optionText": "p.m",
+							"optionvalue": "2",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				},
+				{
+					"id": 86,
+					"questionNumber": "A5",
+					"questionText": "multiple_choice",
+					"responseType": null,
+					"comment_question": "Novedades en campo",
+					"responseOptions": [
+						{
+							"id": 1783,
+							"optionText": "Completa",
+							"optionvalue": "1",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						},
+						{
+							"id": 1784,
+							"optionText": "Incompleta",
+							"optionvalue": "2",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						},
+						{
+							"id": 1785,
+							"optionText": "Rechazó",
+							"optionvalue": "2",
+							"comment_response": null,
+							"typecomponenthtml": "<input type=\"text\">",
+							"subresponseoption": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
