@@ -7,21 +7,26 @@ import TituloForm from "@/components/TituloForm.vue";
 // import Composite from '@/components/preguntas/Composite.vue';
 import QuestionItem from "@/components/QuestionItem.vue";
 import BackHome from "@/components/BackHome.vue";
-import { ref, onMounted } from "vue";
+import { onMounted, reactive } from "vue";
 import adminMunicipal from "../assets/adminMunicipal.json";
 
-const formData = ref({});
+const formData = reactive({
+  idSurvey: 1,
+  nameSurvey: "ENCUESTA A LA ADMINISTRACION MUNICIPAL Y OPERADORES DE JUSTICIA",
+  responses: {}
+});
 
 const submitForm = () => {
-  console.log(formData.value);
-  // Handle form submission
+  console.log(formData);
+
 };
 </script>
 
 <template>
+
   <main>
     <BackHome></BackHome>
-    <form @submit.prevent="submitForm" class="form">
+    <form @submit.prevent="onSubmit" class="form">
       <TituloForm
         titulo="ENCUESTA A LA ADMINISTRACIÓN MUNICIPAL Y OPERADORES DE JUSTICIA"
       />
@@ -67,14 +72,15 @@ const submitForm = () => {
           v-for="question in chapter.questions"
           :key="question.id"
           :question="question"
-          v-model="formData[question.id]"
+          v-model="formData.responses[question.questionNumber]"
         />
 
     </div>
-      <button type="submit">Submit</button>
+      <button type="submit" @click="submitForm" >Submit</button>
 
     </form>
   </main>
+
 </template>
 
 <style scoped>
@@ -104,9 +110,15 @@ main {
   border-top: 1px solid #ccc;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .form {
     width: 85%;
+  }
+
+  .chapter_title {
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 25px;
   }
 }
 </style>

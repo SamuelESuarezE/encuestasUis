@@ -19,7 +19,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -36,7 +36,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -53,7 +53,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -70,7 +70,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -87,7 +87,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -104,7 +104,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -121,7 +121,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -138,7 +138,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -916,7 +916,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -1459,7 +1459,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -8953,7 +8953,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -8970,7 +8970,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -8987,7 +8987,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -9004,7 +9004,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -9021,7 +9021,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -9045,7 +9045,7 @@
 							"optionText": "NA",
 							"optionvalue": "0",
 							"comment_response": "NA",
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -9062,7 +9062,7 @@
 							"optionText": "Hora",
 							"optionvalue": "1",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						},
 						{
@@ -9070,7 +9070,7 @@
 							"optionText": "Minutos",
 							"optionvalue": "2",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						},
 						{
@@ -9078,7 +9078,7 @@
 							"optionText": "a.m",
 							"optionvalue": "3",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						},
 						{
@@ -9086,7 +9086,7 @@
 							"optionText": "p.m",
 							"optionvalue": "4",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -9103,7 +9103,7 @@
 							"optionText": "Hora",
 							"optionvalue": "1",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						},
 						{
@@ -9111,7 +9111,7 @@
 							"optionText": "Minutos",
 							"optionvalue": "2",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						},
 						{
@@ -9119,7 +9119,7 @@
 							"optionText": "a.m",
 							"optionvalue": "3",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						},
 						{
@@ -9127,7 +9127,7 @@
 							"optionText": "p.m",
 							"optionvalue": "4",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -9144,7 +9144,7 @@
 							"optionText": "Hora",
 							"optionvalue": "1",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						},
 						{
@@ -9152,7 +9152,7 @@
 							"optionText": "Minutos",
 							"optionvalue": "2",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						},
 						{
@@ -9160,7 +9160,7 @@
 							"optionText": "a.m",
 							"optionvalue": "2",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						},
 						{
@@ -9168,7 +9168,7 @@
 							"optionText": "p.m",
 							"optionvalue": "2",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]
@@ -9185,7 +9185,7 @@
 							"optionText": "Rechazó",
 							"optionvalue": "2",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						},
 						{
@@ -9193,7 +9193,7 @@
 							"optionText": "Incompleta",
 							"optionvalue": "2",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						},
 						{
@@ -9201,7 +9201,7 @@
 							"optionText": "Completa",
 							"optionvalue": "1",
 							"comment_response": null,
-							"typecomponenthtml": "<input type=\"text\">",
+							"typecomponenthtml": "text",
 							"subresponseoption": []
 						}
 					]

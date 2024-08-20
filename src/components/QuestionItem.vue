@@ -12,18 +12,19 @@ const props = defineProps({
 defineEmits(['update:modelValue']);
 
 const isTextInput = computed(() => 
-  props.question.responseOptions[0].typecomponenthtml === '<input type="text">'
+  props.question.responseOptions[0].typecomponenthtml === 'text'
 );
+
 </script>
 
 <template>
     <div :class="{'question': isTextInput, 'options': !isTextInput}">
-      <label :for="question.id" style="font-weight: bold;">{{ question.questionNumber }}. {{ question.comment_question }}</label>
+      <label :for="question.questionNumber" style="font-weight: bold;">{{ question.questionNumber }}. {{ question.comment_question }}</label>
       
       <!-- Text Input -->
       <input 
         v-if="isTextInput"
-        :id="question.id"
+        :id="question.questionNumber"
         type="text"
         :value="modelValue"
         @input="$emit('update:modelValue', $event.target.value)"
@@ -31,33 +32,38 @@ const isTextInput = computed(() =>
       />
       
       <!-- Radio Group -->
-      <div v-else>
+      <div class="radio_group" v-else>
         <template v-for="option in question.responseOptions" :key="option.id">
-          <template v-if="option.subresponseoption.length" class="options">
-            <p style="margin-block: 10px;">{{ option.optionText }}</p>
+          <template v-if="option.subresponseoption.length">
+            <p style="margin-top: 10px; font-weight: bold;">{{ option.optionText }}</p>
             <div v-for="subOption in option.subresponseoption" :key="subOption.id">
               <input 
-                style="margin-block: 10px;"
+                style="margin-block: 5px;"
                 type="radio"
-                :id="subOption.id"
+                :id="subOption.subresponsenumber"
                 :name="question.id"
                 :value="subOption.subresponsetext"
                 :checked="modelValue === subOption.subresponsetext"
                 @change="$emit('update:modelValue', subOption.subresponsetext)"
               />
-              <label style="margin-left: 10px;" :for="subOption.id">{{ subOption.subresponsetext }}</label>
+              <label style="margin-left: 10px;" :for="subOption.subresponsenumber">{{ subOption.subresponsetext }}</label>
             </div>
           </template>
           <template v-else>
-            <input 
+            <div class="options">
+              <div class="option">
+                <input style="margin-right: 5px;"
               type="radio"
-              :id="option.id"
+              :id="question.questionNumber + option.optionvalue"
               :name="question.id"
               :value="option.optionText"
               :checked="modelValue === option.optionText"
               @change="$emit('update:modelValue', option.optionText)"
-            />
-            <label :for="option.id">{{ option.optionText }}</label>
+              />
+              <label style="margin-right: 20px;" :for="question.questionNumber + option.optionvalue">{{ option.optionText }}</label>
+              </div>
+            </div>
+
           </template>
         </template>
       </div>
@@ -65,18 +71,36 @@ const isTextInput = computed(() =>
   </template>
   
 <style scoped>
+  .radio_group {
+    margin-bottom: 20px;
+  }
   .question {
     display: flex;
     margin-block: 20px;
   }
-
-  .question.options {
-    display: block;
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .input_text {
     margin-left: 20px;
     flex: 1;
+  }
+
+  @media (width < 768px) {
+    .question  {
+      text-align: left;
+      display: block;
+    }
+
+    .input_text {
+    margin-left: 0px;
+    width: 100%;
+    height: 30px;
+  }
   }
 
 </style>
