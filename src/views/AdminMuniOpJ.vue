@@ -62,7 +62,7 @@ const submitForm = () => {
       <hr class="initialDivision" />
 
       <div v-for="chapter in adminMunicipal.chapters" :key="chapter.id" class="chapter">
-        <h2>{{ chapter.chapterNumber }}. {{ chapter.chapterTitle }}</h2>
+        <h2 class="chapter_title">Capitulo {{ chapter.chapterNumber }}. {{ chapter.chapterTitle }}</h2>
         <QuestionItem
           v-for="question in chapter.questions"
           :key="question.id"
@@ -78,6 +78,14 @@ const submitForm = () => {
 </template>
 
 <style scoped>
+
+.chapter_title {
+  background-color: var(--color-darkBlue);
+  color: var(--color-white);
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
 main {
   display: flex;
   justify-content: center;
