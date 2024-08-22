@@ -9,17 +9,10 @@ import QuestionItem from "@/components/QuestionItem.vue";
 import BackHome from "@/components/BackHome.vue";
 import { onMounted, reactive } from "vue";
 import adminMunicipal from "../assets/adminMunicipal.json";
+import { submitForm, formData } from "@/main";
 
-const formData = reactive({
-  idSurvey: 1,
-  nameSurvey: "ENCUESTA A LA ADMINISTRACION MUNICIPAL Y OPERADORES DE JUSTICIA",
-  responses: {}
-});
 
-const submitForm = () => {
-  console.log(formData);
 
-};
 </script>
 
 <template>
