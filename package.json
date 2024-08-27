@@ -11,6 +11,7 @@
     "deploy": "npm run build && node src/db/testApi.js"
   },
   "dependencies": {
+    "@formkit/tempo": "^0.1.2",
     "express": "^4.19.2",
     "json-server": "^1.0.0-beta.1",
     "vue": "^3.4.29",

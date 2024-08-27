@@ -1,10 +1,7 @@
 <script setup>
     import MenuDesplegable from '@/components/MenuDesplegable.vue';
     import TituloForm from '@/components/TituloForm.vue';
-    import TextInput from '@/components/preguntas/TextInput.vue';
-    import Dropdown from '@/components/preguntas/Dropdown.vue';
-    import Checklist from '@/components/preguntas/Checklist.vue';
-    import Composite from '@/components/preguntas/Composite.vue';
+
     import BackHome from '@/components/BackHome.vue';
 </script>
 

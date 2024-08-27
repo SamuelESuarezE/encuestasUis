@@ -1,7 +1,7 @@
 <script setup>
 import router from '@/router';
-import { computed } from 'vue';
-import {submitForm} from '@/main'
+import { computed, ref } from 'vue';
+
 
 const props = defineProps({
     question: {
@@ -16,6 +16,8 @@ defineEmits(['update:modelValue']);
 const isTextInput = computed(() =>
     props.question.responseOptions[0].typecomponenthtml === 'text'
 );
+
+const noForm = ref(false)
 
 </script>
 
@@ -43,17 +45,19 @@ const isTextInput = computed(() =>
                     </div>
                 </template>
                 <template v-else>
-                    <div class="options">
-                        <div class="option">
+                    <div class="group_options">
+                        <div style="margin-block: 6px" class="option">
+                            <!-- excepciones -->
                             <template v-if="question.questionNumber == 'P10' && option.optionText == 'NO'">
                                 <input style="margin-right: 5px;" type="radio"
                                     :id="question.questionNumber + option.optionvalue" :name="question.id"
                                     :value="option.optionText" :checked="modelValue === option.optionText"
                                     @change="$emit('update:modelValue', option.optionText)"
-                                    @input="submitForm" />
+                                    @input="noForm = true" />
                                 <label style="margin-right: 20px;" :for="question.questionNumber + option.optionvalue">{{
                                     option.optionText }}</label>
                             </template>
+
                             <template v-else>
                                 <input style="margin-right: 5px;" type="radio"
                                 :id="question.questionNumber + option.optionvalue" :name="question.id"
@@ -70,6 +74,10 @@ const isTextInput = computed(() =>
                 </template>
             </template>
         </div>
+
+        <div v-if="noForm">
+            <p style="color: red; font-weight: bold;">Puede ir al pie de la pagina y presionar el boton 'Enviar Encuesta'</p>
+        </div>
     </div>
 </template>
   
@@ -81,28 +89,27 @@ const isTextInput = computed(() =>
 .question {
     display: flex;
     margin-block: 20px;
+    text-align: left;
+    display: block;
 }
 
 .options {
     display: flex;
     flex-direction: column;
+    margin-block: 10px;
     gap: 10px;
 }
 
 .input_text {
-    margin-left: 20px;
-    flex: 1;
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black ;
 }
 
-@media (width < 768px) {
-    .question {
-        text-align: left;
-        display: block;
-    }
+.input_text:focus {
+    outline: none;
+}
 
-    .input_text {
-        margin-left: 0px;
-        width: 100%;
-        height: 30px;
-    }
-}</style>
+</style>

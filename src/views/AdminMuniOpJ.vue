@@ -7,11 +7,35 @@ import TituloForm from "@/components/TituloForm.vue";
 // import Composite from '@/components/preguntas/Composite.vue';
 import QuestionItem from "@/components/QuestionItem.vue";
 import BackHome from "@/components/BackHome.vue";
-import { onMounted, reactive } from "vue";
-import adminMunicipal from "../assets/adminMunicipal.json";
-import { submitForm, formData } from "@/main";
+import { reactive, ref } from "vue";
+import {format} from '@formkit/tempo'
+import adminMunicipal from "../assets/surveyNew01.json";
 
+const formData1 = reactive({
+  "nroencuesta": 1,
+  "idsurvey" : 1,
+  "fecha": "2024-08-18",
+  "hora": "HH:MM:SS",
+  "responses": [
+    {
+      "qid": "P1",
+      "qfather": "",
+      "response": [
+          {
+              "idoptresponse": 1,
+              "textoptresponse" : "xxxxxxxx",
+              "responseuser": "xxxx"
+          }
+      ]
+    }
+  ]
+});
 
+async function submitForm() {
+  formData1.fecha = format(new Date(), 'YYYY-MM-DD')
+  formData1.hora = format(new Date(), 'HH:mm')
+  console.log(formData1)
+}
 
 </script>
 
@@ -65,7 +89,7 @@ import { submitForm, formData } from "@/main";
           v-for="question in chapter.questions"
           :key="question.id"
           :question="question"
-          v-model="formData.responses[question.questionNumber]"
+          v-model="formData1.responses[question.questionNumber]"
         />
 
     </div>
