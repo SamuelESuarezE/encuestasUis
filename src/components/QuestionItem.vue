@@ -11,13 +11,19 @@ const props = defineProps({
     modelValue: [String, Number]
 });
 
-defineEmits(['update:modelValue']);
+const emit = defineEmits(['update:modelValue', 'selectedNoForm', "selectedYesForm"]);
 
 const isTextInput = computed(() =>
     props.question.responseOptions[0].typecomponenthtml === 'text'
 );
 
 const noForm = ref(false)
+const handleNoForm = () => {
+    noForm.value = true
+    document.querySelector('#submit').scrollIntoView({ behavior: 'smooth' });
+    emit("selectedNoForm")
+}
+
 
 </script>
 
@@ -34,7 +40,7 @@ const noForm = ref(false)
         <div class="radio_group" v-else>
             <template v-for="option in question.responseOptions" :key="option.id">
                 <template v-if="option.subresponseoption.length">
-                    <p style="margin-block: 10px; font-weight: bold; background-color: var(--color-gray); width: 50%;">{{
+                    <p class="group_title">{{
                         option.optionText }}</p>
                     <div v-for="subOption in option.subresponseoption" :key="subOption.id">
                         <input style="margin-block: 5px;" type="radio" :id="subOption.subresponsenumber" :name="question.id"
@@ -53,11 +59,20 @@ const noForm = ref(false)
                                     :id="question.questionNumber + option.optionvalue" :name="question.id"
                                     :value="option.optionText" :checked="modelValue === option.optionText"
                                     @change="$emit('update:modelValue', option.optionText)"
-                                    @input="noForm = true" />
+                                    @input="handleNoForm" />
                                 <label style="margin-right: 20px;" :for="question.questionNumber + option.optionvalue">{{
                                     option.optionText }}</label>
                             </template>
-
+                            <template v-else-if="question.questionNumber == 'P10' && option.optionText == 'SI'">
+                                <input style="margin-right: 5px;" type="radio"
+                                    :id="question.questionNumber + option.optionvalue" :name="question.id"
+                                    :value="option.optionText" :checked="modelValue === option.optionText"
+                                    @change="$emit('update:modelValue', option.optionText)"
+                                    @input="emit('selectedYesForm')" />
+                                <label style="margin-right: 20px;" :for="question.questionNumber + option.optionvalue">{{
+                                    option.optionText }}</label>
+                            </template>
+                            <!--  -->
                             <template v-else>
                                 <input style="margin-right: 5px;" type="radio"
                                 :id="question.questionNumber + option.optionvalue" :name="question.id"
@@ -74,16 +89,23 @@ const noForm = ref(false)
                 </template>
             </template>
         </div>
-
-        <div v-if="noForm">
-            <p style="color: red; font-weight: bold;">Puede ir al pie de la pagina y presionar el boton 'Enviar Encuesta'</p>
-        </div>
     </div>
 </template>
   
 <style scoped>
+
+.group_title {
+    margin-block: 10px;
+    font-weight: bold;
+    background-color:
+    var(--color-gray);
+    width: 100%;
+}
+
+
+
 .radio_group {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .question {
@@ -106,6 +128,7 @@ const noForm = ref(false)
     height: 30px;
     border-radius: 10px;
     border: 1px solid black ;
+    padding: 5px;
 }
 
 .input_text:focus {

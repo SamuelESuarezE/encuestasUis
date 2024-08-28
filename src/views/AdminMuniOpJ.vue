@@ -37,6 +37,15 @@ async function submitForm() {
   console.log(formData1)
 }
 
+let noForm = ref(false)
+function handleNoForm() {
+  noForm.value = true
+}
+
+function handleYesForm() {
+  noForm.value = false
+}
+
 </script>
 
 <template>
@@ -90,10 +99,15 @@ async function submitForm() {
           :key="question.id"
           :question="question"
           v-model="formData1.responses[question.questionNumber]"
+          @selectedNoForm="handleNoForm"
+          @selectedYesForm="handleYesForm"
         />
 
     </div>
-      <button type="submit" @click="submitForm" >Submit</button>
+      <div v-show="noForm">
+            <p style="color: red; font-weight: bold;">Muchas gracias, por favor presionar el boton 'Finalizar Encuesta'</p>
+      </div>
+      <button id="submit" type="submit" @click="submitForm" >Finalizar Encuesta</button>
 
     </form>
   </main>
@@ -125,6 +139,17 @@ main {
   margin-top: 30px;
   margin-bottom: 30px;
   border-top: 1px solid #ccc;
+}
+
+#submit{
+  width: 50%;
+  height: 3rem;
+  border-radius: 20px;
+  border: 1px solid var(--color-darkBlue);
+  background-color: var(--color-darkBlue);
+  color: var(--color-white);
+  font-size: 15px;
+
 }
 
 @media (max-width: 1200px) {
